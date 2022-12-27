@@ -4,27 +4,10 @@ Identifies the musical genre of a song, deploys neural networks via TensorFlow a
 Neural Network:
 
 
-Model: "sequential"
-_________________________________________________________________
- Layer (type)                Output Shape              Param #
-=================================================================
- flatten (Flatten)           (None, 1690)              0
-
- dense (Dense)               (None, 512)               865792
-
- dense_1 (Dense)             (None, 256)               131328
-
- dense_2 (Dense)             (None, 64)                16448
-
- dense_3 (Dense)             (None, 10)                650
-
-=================================================================
-Total params: 1,014,218
-Trainable params: 1,014,218
-Non-trainable params: 0
-_________________________________________________________________
 Epoch 50/50
-219/219 [==============================] - 2s 8ms/step - loss: 0.2085 - accuracy: 0.9313 - val_loss: 2.6356 - val_accuracy: 0.5791
+2s 8ms/step - loss: 0.2085 - accuracy: 0.9313 - val_loss: 2.6356 - val_accuracy: 0.5791
+![model](https://user-images.githubusercontent.com/73067824/209717989-f97d99ac-cbdb-47c2-8135-8549fd8479e8.png)
+
 
 Encountered an overfitting issue where the discrepancy between training set data accuracy and test data accuradcy reached approximately 30%:
 ![overfitting](https://user-images.githubusercontent.com/73067824/209717458-7257c76c-fef0-4c65-9034-6104659e91bb.png)
