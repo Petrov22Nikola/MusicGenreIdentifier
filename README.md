@@ -6,10 +6,10 @@ Convolutional Neural Network: 72.0% accuracy
 Standard Neural Network: 57.9% accuracy
 
 Convolutional Neural Network: 
-Epoch 40/40
-188/188 [==============================] - 4s 24ms/step - loss: 0.5964 - accuracy: 0.7888 - val_loss: 0.8331 - val_accuracy: 0.7203
-79/79 [==============================] - 1s 7ms/step - loss: 0.8483 - accuracy: 0.7201
-Accuracy: 0.720064103603363
+Epoch 40/40 \n
+188/188 [==============================] - 4s 24ms/step - loss: 0.5964 - accuracy: 0.7888 - val_loss: 0.8331 - val_accuracy: 0.7203 \n
+79/79 [==============================] - 1s 7ms/step - loss: 0.8483 - accuracy: 0.7201 \n
+Accuracy: 0.720064103603363 \n
 
 Neural Network:
 
