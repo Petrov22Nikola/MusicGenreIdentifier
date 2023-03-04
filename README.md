@@ -2,9 +2,16 @@
 Identifies the musical genre of a song, deploys neural networks via TensorFlow and Keras  
   
 Performance Summary:  
+Recurrent Long Short Term Memory Neural Network: 65.2% accuracy
 Convolutional Neural Network: 72.0% accuracy  
 Standard Neural Network: 57.9% accuracy  
-  
+
+Recurrent Long Short Term Memory Neural Network:
+Epoch 30/30
+188/188 [==============================] - 36s 189ms/step - loss: 0.7579 - accuracy: 0.7611 - val_loss: 1.0320 - val_accuracy: 0.6662      
+79/79 [==============================] - 5s 61ms/step - loss: 1.0975 - accuracy: 0.6524
+Accuracy: 0.6523828506469727
+
 Convolutional Neural Network:  
 Epoch 40/40  
 188/188 [==============================] - 4s 24ms/step - loss: 0.5964 - accuracy: 0.7888 - val_loss: 0.8331 - val_accuracy: 0.7203  
